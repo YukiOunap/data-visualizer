@@ -1,0 +1,165 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Barlow Condensed", Arial, sans-serif;
+    text-align: center;
+    color: #242931;
+    background-color: #ebebeb;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    display: inline;
+    vertical-align: center;
+    height: 40px;
+    margin: 0px;
+}
+
+.underline {
+    position: relative;
+    margin: auto;
+    transform: skewX(-45deg);
+    height: 10px;
+    margin: 0 auto;
+    background-color: #DCF900;
+    z-index: -1;
+}
+
+.link {
+    color: #FF4545;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.button {
+    font-family: "Barlow Condensed", Arial, sans-serif;
+    font-size: larger;
+    font-weight: 550;
+    padding: 5px 10px 10px 10px;
+    border: none;
+    background-color: #DCF900;
+    border-radius: 0px 13px 0px 13px;
+    cursor: pointer;
+}
+
+input {
+    border-color: #d9d9d9;
+    border-width: 1px;
+    border-radius: 3px;
+    margin: 5px;
+    padding: 5px;
+    width: 200px;
+    border-style: solid;
+}
+
+label {
+    white-space: nowrap;
+}
+
+/* login page  ---------------------------------*/
+
+.visualizer {
+    display: inline-block;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0px 0px 5px 0px;
+}
+
+#login {
+    font-weight: normal;
+    text-align: center;
+    background-color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#loginForm {
+    margin: 5px;
+}
+
+#login .underline {
+    top: -17px;
+    width: 170px;
+}
+
+#password {
+    position: relative;
+    left: 20px;
+}
+
+#login .button {
+    width: 80px;
+    height: 35px;
+    margin: 10px 10px 0px 10px;
+}
+
+/* dashoboard page  ---------------------------------*/
+
+#dashboard {
+    background-color: white;
+    margin: 0;
+    padding: 20px 0px;
+    font-size: larger;
+}
+
+.border {
+    position: relative;
+    background-color: #DCF900;
+    width: 100vw;
+    height: 60px;
+}
+
+.border .logo {
+    height: 40px;
+    margin: 10px 0px;
+}
+
+.border .visualizer {
+    position: relative;
+    top: -14px;
+    margin: 0px 0px 0px 10px;
+}
+
+#graph {
+    overflow-x: auto;
+    overflow-y: auto;
+    margin: 10px;
+}
+
+#project_wrapper {
+    margin: 15px;
+
+}
+
+#projects {
+    height: 100px;
+    width: 50%;
+    overflow-y: auto;
+    margin: 5px auto;
+    padding: 0;
+    border: solid 0.5px #8e8e8e;
+    border-radius: 3px;
+}
+
+li {
+    position: relative;
+    list-style: none;
+}
+
+#logout {
+    position: relative;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    width: 60px;
+    margin-top: 30px;
+}
