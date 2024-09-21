@@ -71,6 +71,7 @@ label {
 }
 
 #login {
+    width: 370px;
     font-weight: normal;
     text-align: center;
     background-color: #ffffff;
