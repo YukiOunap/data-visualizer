@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     document.getElementById('logout').addEventListener('click', function () {
         localStorage.removeItem('jwt');
         sessionStorage.removeItem('jwt');
-        window.location.href = 'login.html';
+        window.location.href = 'index.html';
     });
 
 })

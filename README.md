@@ -16,7 +16,7 @@ JavaScript app visualizes the query data.
 
 ## Installation & How to Use
 
-This app is being hosted on https://bork211.github.io/GraphQL/.
+This app is being hosted on https://yukiounap.github.io/data-visualizer/.
 
 However, you need to have kood/Jõhvi account to login to the app so you can also check how the app works on the demo video: https://youtu.be/rmWY2E2gS6I
 
